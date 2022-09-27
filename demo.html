@@ -1,0 +1,59 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<!--    <script>-->
+<!--        $(document).ready(function () {-->
+<!--            $("#hide").click(function () {-->
+<!--                $("p").hide();-->
+<!--            });-->
+<!--            $("#show").click(function () {-->
+<!--                $("p").show();-->
+<!--            });-->
+<!--        });-->
+<!--    </script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p>If you click on the "Hide" button, I will disappear.</p>-->
+<!--<button id="hide">Hide</button>-->
+<!--<button id="show">Show</button>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<!--    <script>-->
+<!--        $(document).ready(function (){-->
+<!--            $("button").click()(function (){-->
+<!--                var div = $("div");-->
+<!--                div.animate({left: '100px'}, "slow");-->
+<!--                div.animate({fontsize: '100px'}, "slow");-->
+<!--            });-->
+<!--        });-->
+<!--    </script>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click()(function () {
+                var div = $("div");
+                div.animate({left: '100px'}, "slow");
+                div.animate({fontsize: '100px'}, "slow");
+            });
+        });
+    </script>
+</head>
+<body>
+<button>Start Animation</button>
+<p>Hoa hậu Nguyễn Thúc Thuỳ Tiên lên tiếng khẳng định cô không liên quan tới những đồn đoán vô căn cứ trên mạng xã hội mới đây.</p>
+<div style="background: aqua; height: 100px; width: 200px; position: absolute;">HELLO</div>
+
+</body>
+</html>
